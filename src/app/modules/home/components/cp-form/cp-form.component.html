@@ -1,0 +1,6 @@
+<div class="container">
+    <label for="cep">CEP:</label>
+    <input type="text" [(ngModel)]="cep">
+    <button (click)="buscarEndereco()">Buscar</button>
+</div>
+<app-cp-table [endereco]="endereco"></app-cp-table>
